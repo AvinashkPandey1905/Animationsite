@@ -16,22 +16,21 @@ const Home = () => {
         }}
         transition={{ duration: 1 }}
       >
-        Dipesh <font color="yellow">Malvia</font>
+        Animebyme
       </motion.div>
       <motion.div
         class="desc"
         initial={{
-          x: 300,
+          x: 900,
           scale: 0.5,
         }}
         animate={{
           x: 0,
-          scale: 1,
+          scale: 0.5,
         }}
         transition={{ duration: 1 }}
       >
-        <font>FullStack</font> Developer and <font>Youtube</font> Teacher based
-        in Poland
+        <font>Creating an animations and interactive responsive</font> Websites an also making a<font> 2D & 3D Models</font> 
       </motion.div>
     </div>
   );

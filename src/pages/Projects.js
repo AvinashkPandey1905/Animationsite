@@ -8,32 +8,32 @@ const Projects = () => {
   const projectList = [
     {
       id: 1,
-      name: "Marketing site design & build",
+      name: "",
       imageUrl: project1,
     },
     {
       id: 2,
-      name: "Glide Utilities",
+      name: "",
       imageUrl: project2,
     },
     {
       id: 3,
-      name: "Noton High Street Product",
+      name: "",
       imageUrl: project1,
     },
     {
       id: 4,
-      name: "Gifts and Voucher Today",
+      name: "",
       imageUrl: project2,
     },
     {
       id: 5,
-      name: "Productkart Studio",
+      name: "",
       imageUrl: project1,
     },
     {
       id: 6,
-      name: "Library Management",
+      name: "",
       imageUrl: project2,
     },
   ];
@@ -64,7 +64,7 @@ const Projects = () => {
               <Card>
                 <Card.Img variant="top" src={item.imageUrl} />
                 <Card.Body>
-                  <Card.Title>{item.name}</Card.Title>
+                  {/* <Card.Title>{item.name}</Card.Title> */}
                 </Card.Body>
               </Card>
             </motion.div>

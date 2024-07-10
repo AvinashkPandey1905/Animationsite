@@ -45,35 +45,28 @@ const Contact = () => {
         <Col>
           <div className="contact-data">
             <p>
-              If you want to chat about a project — email me on
-              dipesh@malvia.com.
+              
             </p>
             <p>
-              I can help designing a website, designing a new product, improving
-              an existing part of your product, building a strong design system,
-              building websites in Webflow, or designing a custom icon set for
-              your business.{" "}
+              
             </p>
             <p>
-              Currently based in Wroclaw, Poland — available for remote-friendly
-              work from December 2022.
+              
             </p>
             <p>
               <ListGroup horizontal>
                 <ListGroup.Item>
-                  <a href="https://www.youtube.com/c/DipeshMalvia">Youtube </a>
+                  <a href="https://www.youtube.com/channel/UCw1O-7s-wNg_ZU1ikGb2kGA">Youtube </a>
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  <a href="https://www.linkedin.com/in/dmalvia/">Linkedin</a>
+                  <a href="">Linkedin</a>
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  <a href="https://www.instagram.com/dipeshmalvia/">
+                  <a href="https://www.instagram.com/bharatblinkbytes/">
                     Instagram
                   </a>
                 </ListGroup.Item>
-                <ListGroup.Item>
-                  <a href="https://twitter.com/IMDmalvia">Twitter</a>
-                </ListGroup.Item>
+               
               </ListGroup>
             </p>
           </div>

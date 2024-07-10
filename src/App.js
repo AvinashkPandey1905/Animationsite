@@ -15,6 +15,11 @@ function App() {
   return (
     <>
       <Header />
+      <div className="logo-text-container">
+        <img src="path_to_your_logo.png" alt="Logo" className="logo" />
+        <p>Animebyme</p>
+      </div>
+
       <Container>
         <AnimatePresence exitBeforeEnter>
           <Routes location={location} key={location.pathname}>
